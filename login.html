@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <style>
+        body {
+            background-color: gainsboro;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .kotak {
+            width: 300px;
+            height: 300px;
+            border: 2px solid white;
+            background-color: white;
+            align-items: center;
+            margin: 200px auto;
+            border-radius: 8px;
+        }
+        .nama {
+            margin: 50px auto;
+            align-items: center;
+            margin-left: 70px;
+            justify-content: space-between;
+            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        h3 {
+            color: rgb(85, 84, 84);
+            align-items: center;
+            margin-left: 100px;
+        }
+        .login {
+            align-items: center;
+            margin-left: 120px;
+        }
+        .lupa {
+            align-items: center;
+            margin-left: 100px;
+            gap: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+        .avatar {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+            margin-top: -60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: 90px;
+            height: 90px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">
+        <div class="avatar">
+            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png">
+        </div>
+        <h3>User Log in</h3>
+        <div class="nama">
+            <input type="text" placeholder="User ID" style="background-color: gainsboro; border-color: gainsboro; border-radius: 5px; height: 30px;">
+            <span class="icon">👤</span> <br>
+            <input type="text" placeholder="........" style="background-color: gainsboro; border-color: gainsboro; border-radius: 5px; height: 30px;">
+            <span class="icon">🔑</span>
+        </div>
+        <div class="login">
+            <button type="submit" style="background-color: rgb(52, 142, 245); border-radius: rgb(52, 142, 245); border-radius: 5px;">LOGIN</button>  
+        </div>
+        <p class="lupa">Forgot <span style="color: blue;">Password?</span></p>
+    </div>
+</body>
+</html>
